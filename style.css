@@ -1,0 +1,22 @@
+.container {
+  width: calc(100% - 20px);
+  display: flex;
+  position: absolute;
+  justify-content: space-evenly;
+  transform: translateY(30vh);
+}
+
+.box {
+  padding: 20px;
+  display: flex;
+  position: relative;
+  background-color: blueviolet;
+  width: 200px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-ans {
+  bottom: 20px;
+}
